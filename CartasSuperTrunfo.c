@@ -8,45 +8,42 @@
 
 int main() {
 
-    int Populacao;
+int Populacao;
     float Area;
     float PIB;
     int Turismo;
 
-    printf("Digite a população do Brasil: \n");
+    printf("Digite a populacao do Brasil: \n");
     scanf("%d", &Populacao);
 
-    printf("Digite a área em KM² do Brasil: \n");
+    printf("Digite a area em KM do Brasil: \n");
     scanf("%f", &Area);
 
     printf("Digite o PIB do Brasil: \n");
     scanf("%f", &PIB);
 
-    printf("Digite um ponto turístico do Brasil: \n");
+    printf("Digite um ponto turistico do Brasil: \n");
     scanf("%d", &Turismo);
 
-    printf("Digite a população da França: \n");
-    scanf("%d", &Populacao);
+    int POPULACAO;
+    float AREA;
+    float Pib;
+    int TURISMO;
 
-    printf("Digite a área em KM² da França: \n");
-    scanf("%f", &Area);
+    printf("Digite a populacao da Espanha: \n");
+    scanf("%d", &POPULACAO);
 
-    printf("Digite o PIB da França: \n");
-    scanf("%f", &PIB);
+    printf("Digite a area em KM da Espanha: \n");
+    scanf("%f", &AREA);
 
-    printf("Digite um ponto turístico da França: \n");
-    scanf("%d", &Turismo);
+    printf("Digite o PIB da Espanha: \n");
+    scanf("%f", &Pib);
+
+    printf("Digite um ponto turistico da Espanha: \n");
+    scanf("%d", &TURISMO);
     
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Populacao do Brasil: %d - Area do Brasil: %f - PIB do Brasil: %f - Ponto turistico do Brasil: %d \n", Populacao, Area, PIB, Turismo);
+    printf("Populacao da Espanha: %d - Area da Espanha: %f - PIB da Espanha: %f - Ponto turistico da Espanha: %d \n", POPULACAO, AREA, Pib, TURISMO);
 
     return 0;
 }
