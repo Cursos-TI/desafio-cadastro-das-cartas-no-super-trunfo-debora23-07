@@ -8,7 +8,7 @@ float Populacao;
     float PIB;
     char Turismo[50];
     
-//utilizando printf e scanf para o usuario digitar o que é necessário 
+//utilizando printf e scanf para o usuario digitar o que é necessário.
     printf("Digite a populacao do Brasil: \n");
     scanf("%f", &Populacao);
 
